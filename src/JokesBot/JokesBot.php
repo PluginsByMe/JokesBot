@@ -33,7 +33,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      				$sender->sendMessage($this->prefix . "You know, your Santa impression could use a little work.");
 			      				}
 			      			else if(this->Message = "Cancel Joke"){
-			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.")
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.");
 			      				}
 			      	
 			      			break;
@@ -45,7 +45,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      				$sender->sendMessage($this->prefix . "Bless you!");
 			      				}
 			      			else if(this->Message = "Cancel Joke"){
-			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.")
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.");
 			      				}
 			      	
 			      			break;
@@ -57,28 +57,81 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      				$sender->sendMessage($this->prefix . "Doris locked; that's why I had to knock!");
 			      				}
 			      			else if(this->Message = "Cancel Joke"){
-			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.")
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.");
 			      				}
 			      	
 			      			break;
 			     
 			      			case 4:
+                                                $sender->sendMessage($this->prefix . "You \n Your response choices: Who are you? or Cancel Joke");
+			      			$this->getMessage;
+			      			if($this->Message = "Who are you?"){
+			      				$sender->sendMessage($this->prefix . "You are!");
+			      				}
+			      			else if(this->Message = "Cancel Joke"){
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.");
+			      				}
+			      	
 			      			break;
 			      
 			      			case 5:
+                                                $sender->sendMessage($this->prefix . "Steve \n Your response choices: Steve who? or Cancel Joke");
+			      			$this->getMessage;
+			      			if($this->Message = "Steve who?"){
+			      				$sender->sendMessage($this->prefix . "I am the player!");
+			      				}
+			      			else if(this->Message = "Cancel Joke"){
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.");
+			      				}
+			      	
 			      			break;
 			      
 			      			case 6:
+                                                $sender->sendMessage($this->prefix . "Jack \n Your response choices: Jack who? or Cancel Joke");
+			      			$this->getMessage;
+			      			if($this->Message = "Jack who?"){
+			      				$sender->sendMessage($this->prefix . "All work and no play makes Jack a dull boy.");
+			      				}
+			      			else if(this->Message = "Cancel Joke"){
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.");
+			      				}
+			      	
 			      			break;
 			      
 			      			case 7:
-			      			
+                                                $sender->sendMessage($this->prefix . "Notch \n Your response choices: Notch who? or Cancel Joke");
+			      			$this->getMessage;
+			      			if($this->Message = "Notch who?"){
+			      				$sender->sendMessage($this->prefix . "Notch: I have to ban you for opening the door.");
+			      				}
+			      			else if(this->Message = "Cancel Joke"){
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.")
+			      				}
+			      	
 			      			break;
 			     
 			      			case 8:
+                                                $sender->sendMessage($this->prefix . "Altar \n Your response choices: Altar who? or Cancel Joke");
+			      			$this->getMessage;
+			      			if($this->Message = "Altar who?"){
+			      				$sender->sendMessage($this->prefix . "Altar of the altar of the altar of the altar of the grand altar!");
+			      				}
+			      			else if(this->Message = "Cancel Joke"){
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.")
+			      				}
+			      	
 			      			break;
 			     
 			      			case 9:
+                                                $sender->sendMessage($this->prefix . "Linus \n Your response choices: Linus who? or Cancel Joke");
+			      			$this->getMessage;
+			      			if($this->Message = "Linus who?"){
+			      				$sender->sendMessage($this->prefix . "I am Linus Torvalds, the creator of Linux!");
+			      				}
+			      			else if(this->Message = "Cancel Joke"){
+			      				$sender->sendMessage($this->prefix . "Joke cancelled. Use the command /jokes to start a new joke.")
+			      				}
+			      	
 			      			break;
             					}
             				}	

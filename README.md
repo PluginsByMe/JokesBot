@@ -1,8 +1,11 @@
 # JokesBot
-A bot that tells jokes!
+A bot that tells jokes about knocking doors from who is knocking. There are only one joke, and is the knocking door. We will make another jokes soon. Simply use the command below for the server to tell jokes. It is created by TheRoyalBlock and finished the knocking door jokes by EoflaOE.
 
 # Command:
-Player: /Jokes
+/Jokes
+
+#Permissions:
+No permissions.
 
 # Knock Knock Joke Example
 Player: /Jokes
