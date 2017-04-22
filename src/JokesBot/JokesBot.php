@@ -63,7 +63,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      			break;
 			     
 			      			case 4:
-                                   $sender->sendMessage($this->prefix . "You \n Your response choices: Who are you? or Cancel Joke");
+                                                $sender->sendMessage($this->prefix . "You \n Your response choices: Who are you? or Cancel Joke");
 			      			$this->getMessage;
 			      			if($this->Message = "Who are you?"){
 			      				$sender->sendMessage($this->prefix . "You are!");
@@ -75,7 +75,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      			break;
 			      
 			      			case 5:
-                                   $sender->sendMessage($this->prefix . "Steve \n Your response choices: Steve who? or Cancel Joke");
+                                                $sender->sendMessage($this->prefix . "Steve \n Your response choices: Steve who? or Cancel Joke");
 			      			$this->getMessage;
 			      			if($this->Message = "Steve who?"){
 			      				$sender->sendMessage($this->prefix . "I am the player!");
@@ -87,7 +87,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      			break;
 			      
 			      			case 6:
-                                   $sender->sendMessage($this->prefix . "Jack \n Your response choices: Jack who? or Cancel Joke");
+                                                $sender->sendMessage($this->prefix . "Jack \n Your response choices: Jack who? or Cancel Joke");
 			      			$this->getMessage;
 			      			if($this->Message = "Jack who?"){
 			      				$sender->sendMessage($this->prefix . "All work and no play makes Jack a dull boy.");
@@ -99,7 +99,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      			break;
 			      
 			      			case 7:
-                                   $sender->sendMessage($this->prefix . "Notch \n Your response choices: Notch who? or Cancel Joke");
+                                                $sender->sendMessage($this->prefix . "Notch \n Your response choices: Notch who? or Cancel Joke");
 			      			$this->getMessage;
 			      			if($this->Message = "Notch who?"){
 			      				$sender->sendMessage($this->prefix . "Notch: I have to ban you for opening the door.");
@@ -111,7 +111,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      			break;
 			     
 			      			case 8:
-                                   $sender->sendMessage($this->prefix . "Altar \n Your response choices: Altar who? or Cancel Joke");
+                                                $sender->sendMessage($this->prefix . "Altar \n Your response choices: Altar who? or Cancel Joke");
 			      			$this->getMessage;
 			      			if($this->Message = "Altar who?"){
 			      				$sender->sendMessage($this->prefix . "Altar of the altar of the altar of the altar of the grand altar!");
@@ -123,7 +123,7 @@ public $this->prefix = C::BLUE . "[JokesBot]" . C::WHITE . "-" . C::BLACK . " ";
 			      			break;
 			     
 			      			case 9:
-                                   $sender->sendMessage($this->prefix . "Linus \n Your response choices: Linus who? or Cancel Joke");
+                                                $sender->sendMessage($this->prefix . "Linus \n Your response choices: Linus who? or Cancel Joke");
 			      			$this->getMessage;
 			      			if($this->Message = "Linus who?"){
 			      				$sender->sendMessage($this->prefix . "I am Linus Torvalds, the creator of Linux!");
