@@ -8,17 +8,17 @@ A bot that tells jokes about knocking doors from who is knocking. There are only
 No permissions.
 
 # Knock Knock Joke Example
-Player: /Jokes\n
-Bot: What kind of joke?\n
-Player: Knock-Knock-Joke\n
-Bot: Okay, Knock-Knock!\n
-Player: Who's there? [or] Whos there [or] Who's there [or] Whos there?\n
-Bot: __________\n
-Player: _________ Who? [or] _____ who?\n
-Bot: __________\n
+Player: /Jokes
+Bot: What kind of joke?
+Player: Knock-Knock-Joke
+Bot: Okay, Knock-Knock!
+Player: Who's there? [or] Whos there [or] Who's there [or] Whos there?
+Bot: __________
+Player: _________ Who? [or] _____ who?
+Bot: __________
 
 # Regular Joke
-Player: /Jokes\n
-Bot: What kind of joke?\n
-Player: Regular-Joke\n
-Bot: Okay, _______\n
+Player: /Jokes
+Bot: What kind of joke?
+Player: Regular-Joke
+Bot: Okay, _______
